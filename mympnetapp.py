@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import pandas as pd 
-import plotly.express as px
 import os 
 import time  
 
