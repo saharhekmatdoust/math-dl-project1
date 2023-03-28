@@ -6,9 +6,9 @@ import pandas as pd
 import os 
 import time 
 #from collections import namedtuple
-from utils import openai_auth
-from openai.embeddings_utils import get_embedding
-from openai.embeddings_utils import cosine_similarity
+#from utils import openai_auth
+#from openai.embeddings_utils import get_embedding
+#from openai.embeddings_utils import cosine_similarity
 import ast
 #import tiktoken
 #import torch 
