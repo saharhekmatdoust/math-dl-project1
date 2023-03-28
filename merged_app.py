@@ -27,9 +27,9 @@ df_mpnet['embeddings '] = df_mpnet['embeddings '].apply(ast.literal_eval)
 # Define dataset of sentences for MPNet
 DOCUMENTS_EMBEDDINGS_PATH = "data"  # a folder with all the documents embeddings. within this folder, one csv file include multiple documents embedding of the same run
 COLUMN_EMBEDDINGS = "embedding"  # the embedding column name in the documents embedding file.
-file_path = "data/TaskEmbeddingss.csv"
-df_ai = pd.read_csv(file_path)
-df_ai[COLUMN_EMBEDDINGS] = df_ai[COLUMN_EMBEDDINGS].apply(eval).apply(np.array)  # convert string to np array
+#file_path = "data/TaskEmbeddingss.csv"
+#df_ai = pd.read_csv(file_path)
+#df_ai[COLUMN_EMBEDDINGS] = df_ai[COLUMN_EMBEDDINGS].apply(eval).apply(np.array)  # convert string to np array
 #st.write(f'Read {len(df_ai)} documents embeddings from {file_path}')
 
 
