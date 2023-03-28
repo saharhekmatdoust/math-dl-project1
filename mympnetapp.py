@@ -7,7 +7,7 @@ import time
 
 
 # Define dataset of sentences for MPNet
-file_path_mpnet = "https://drive.google.com/file/d/1yZ0ZrV0XVkLuHWLOVjZg3CtjEMIWDAF4/view?usp=share_link"
+file_path_mpnet = "top500embeddings.csv"
 df_mpnet= pd.read_csv(file_path_mpnet)
 mpnet_embedding=np.array(df_mpnet['embeddings'])
 
