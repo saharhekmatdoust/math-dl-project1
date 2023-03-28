@@ -8,7 +8,7 @@ import ast
 # Load a pre-trained model for word embeddings
 model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 # Load your dataframe here
-file_path_mpnet = "data/top500embeddings.csv.csv"
+file_path_mpnet = "top500embeddings.csv"
 df_mpnet= pd.read_csv(file_path_mpnet)
 df_mpnet['embeddings '] = df_mpnet['embeddings '].apply(ast.literal_eval)
 
