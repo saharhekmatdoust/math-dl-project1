@@ -18,7 +18,7 @@ import ast
 available_models = ["open AI API", "MPNet Sentence Transformer"]
 
 # Define dataset of sentences for MPNet
-file_path_mpnet = ".\Data\task_with_embedding.csv"
+file_path_mpnet = "top500embeddings.csv"
 df_mpnet= pd.read_csv(file_path_mpnet)
 df_mpnet['embeddings '] = df_mpnet['embeddings '].apply(ast.literal_eval)
 
